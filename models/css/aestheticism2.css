@@ -1,0 +1,49 @@
+.aestheticism2 ul {
+  width: 80%;
+  height: 85%;
+  position: absolute;
+  bottom: 1.5em;
+  left: 10%;
+  display: block;
+  overflow: hidden;
+}
+/* title */
+.aestheticism2 ul li:nth-child(2) {
+  width: 92%;
+  padding: 4%;
+  margin-top: 0.5em;
+  font-size: 2em;
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+}
+/* descript */
+.aestheticism2 ul li:nth-child(4) {
+  width: 92%;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 24px;
+  padding: 4%;
+  background: rgba(0,0,0,0.3);
+  margin-top: -1px;
+  text-align: left;
+}
+.aestheticism2 ul li:nth-child(4) p{
+  text-align: left;
+  text-indent: 1em;
+}
+/* picture */
+.aestheticism2 ul li:nth-child(1) {
+  width: 95%;
+  border: 0.5em solid #fff;
+}
+.aestheticism2 ul li:nth-child(1) img {
+  width: 100%;
+  display: block;
+}
+/* line */
+.aestheticism2 ul li:nth-child(3) {
+  width: 90%;
+  margin: 0 auto;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.8);
+}

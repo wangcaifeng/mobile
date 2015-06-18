@@ -1,0 +1,59 @@
+.tradition2 ul {
+  width: 90%;
+  height: 90%;
+  padding: 2em 5%;
+  position: absolute;
+  bottom: 0;
+  display: block;
+}
+/* pic */
+.tradition2 ul li:nth-child(1){
+  width: 20em;
+  height: 20em;
+  text-align: center;
+  line-height: 35em;
+  margin: 7em auto 0.3em;
+  -webkit-border-image: url(http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M08/84/ED/wKhTglT2ci4EAAAAAAAAAAAAAAA135.jpg) 30 30 stretch;
+}
+.tradition2 ul li:nth-child(1) img{
+  width: 16em;height: 16em;
+  border-radius: 50%;
+}
+
+.tradition2 ul li:nth-child(2){
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.tradition2 ul li:nth-child(2) img{
+  width: 100%;
+  display: block;
+}
+.tradition2 ul li:nth-child(3){
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.tradition2 ul li:nth-child(3) img{
+  width: 100%;
+  display: block;
+}
+
+/*.u-arrow-bottom{
+  background: url(../images/sm.jpg) no-repeat;
+}*/
+
+/* 动画持续时间 */
+.tradition2 .duration1 {
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.tradition2 .duration2 {
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}

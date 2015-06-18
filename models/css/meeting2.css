@@ -1,0 +1,41 @@
+.meeting2 ul {
+  width: 80%;
+  height: 68%;
+  position: absolute;
+  padding:5%;
+  bottom: 6em;
+  left: 5%;
+  background: rgba(0,0,0,0.2);
+  border-radius: 1em;
+  display: block;
+  overflow: hidden;
+}
+/* title */
+.meeting2 ul li:nth-child(2) {
+  width: 100%;
+  margin-top: 0.5em;
+  font-size: 2.5em;
+  color: #fff;
+  text-align: center;
+}
+/* descript */
+.meeting2 ul li:nth-child(3) {
+  width: 100%;
+  color: #fff;
+  margin-top: 0.8em;
+  font-size: 1.5em;
+  line-height: 24px;
+  text-align: left;
+}
+.meeting2 ul li:nth-child(3) p{
+  text-align: left;
+}
+/* picture */
+.meeting2 ul li:nth-child(1) {
+  width: 60%;
+  margin-left: 20%;
+}
+.meeting2 ul li:nth-child(1) img {
+  width: 100%;
+  display: block;
+}

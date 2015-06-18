@@ -1,0 +1,41 @@
+section{
+	width: 322px;
+	height: 486px;
+	background: #fc0;
+	margin: 50px auto;
+	overflow: hidden;
+	position: relative;
+}
+.bodybg{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bodybg img{
+	width: 100%;
+}
+section ul{
+	width: 86%;
+	height: 86%;
+	padding: 7%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#con_title{
+	color: #f1712b;
+	font-size: 1.2rem;
+	text-align: center;
+	font-weight: bold;
+	padding:10%;
+	margin: 10%;
+	background: rgba(255,255,255,0.8);
+	border: 1px solid #ccc;
+}
+#con_text{
+	width: 80%;
+	padding: 10%;
+	color: #fff;
+	margin-top: 5%;
+	font-size: 0.9rem
+}

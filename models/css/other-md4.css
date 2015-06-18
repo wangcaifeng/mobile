@@ -1,0 +1,43 @@
+.other-md4 ul {
+  width: 86%;
+  height: 86%;
+  padding: 7%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.other-md4 ul li:nth-child(1) {
+  width: 100%;
+  margin: 25px auto 5px;
+}
+.other-md4 ul li:nth-child(1) img {
+  width: 120px;
+  height: 120px;
+  border-radius: 75px;
+  display: block;
+  margin: 0 auto;
+  border: 5px solid #fff;
+}
+.other-md4 ul li:nth-child(2) {
+  color: #fff;
+  font-size: 2.5em;
+  margin-top: 6%;
+  text-align: center;
+}
+.other-md4 ul li:nth-child(3) {
+  width: 100%;
+  height: 1px;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 6% 0;
+}
+.other-md4 ul li:nth-child(4){
+  width: 90%;
+  padding: 5%;
+  color: #fff;
+  margin-top: 5%;
+  font-size: 1.3em;
+}
+.other-md4 ul li:nth-child(4):first-letter {
+  font-size: 1.5em;
+}

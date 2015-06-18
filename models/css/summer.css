@@ -1,0 +1,48 @@
+.summer ul {
+  width: 90%;
+  height: 95%;
+  position: absolute;
+  padding: 0 5%;
+  margin:0 auto;
+  bottom: 0;
+  left: 0;
+  display: block;
+  overflow: hidden;
+}
+/* title */
+.summer ul li:nth-child(3) {
+  color: #20515c;
+  font-size: 2.5em;
+  text-decoration: underline;
+  margin-bottom: 1em;
+}
+/* descript */
+.summer ul li:nth-child(4) {
+  color: #20515c;
+  width: 65%;
+  font-size: 1.5em;
+  line-height: 25px;
+}
+/* picture-bg */
+.summer ul li:nth-child(1) {
+  width: 18em;height: 18em;
+  background: #e5e2de;
+  position: absolute;
+  top: 3em;
+  left: 15%;
+  -webkit-border-radius: 3em;
+  -webkit-transform:rotate(35deg);
+}
+/* picture */
+.summer ul li:nth-child(2) {
+  width: 90%;
+  margin:3.8em 10% 2em;
+  -webkit-transform:rotate(25deg);
+}
+.summer ul li:nth-child(2) img {
+  margin: 0 auto;
+  width: 18em;height: 18em;
+  -webkit-border-radius: 3em;
+}
+
+

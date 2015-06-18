@@ -1,0 +1,43 @@
+.other-md2 ul {
+  width: 86%;
+  height: 86%;
+  padding: 7%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.other-md2 ul li:nth-child(1) {
+  color: #fff;
+  font-size: 2.5em;
+  margin-top: 6%;
+}
+.other-md2 ul li:nth-child(2) {
+  width: 100%;
+  height: 1px;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 6% 0;
+}
+.other-md2 ul li:nth-child(3) {
+  width: 90%;
+  padding: 5%;
+  color: #fff;
+  font-size: 1.3em;
+  background: rgba(88, 194, 221, 0.8);
+  margin-top: 5%;
+  -webkit-box-shadow: 7px 8px 0px rgba(4, 121, 123, 0.6);
+  -moz-box-shadow: 7px 8px 0px rgba(4, 121, 123, 0.6);
+  -ms-box-shadow: 7px 8px 0px rgba(4, 121, 123, 0.6);
+  box-shadow: 7px 8px 0px rgba(4, 121, 123, 0.6);
+}
+.other-md2 ul li:nth-child(3):first-letter {
+  font-size: 1.5em;
+}
+.other-md2 ul li:nth-child(4) {
+  width: 100%;
+  margin: 20px auto;
+}
+.other-md2 ul li:nth-child(4) img {
+  width: 100%;
+  border-radius: 20px;
+}

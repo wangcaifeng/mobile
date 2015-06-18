@@ -1,0 +1,40 @@
+.season-footer ul {
+  width: 100%;
+  height: 78%;
+  position: absolute;
+  bottom: 0em;
+  display: block;
+  overflow: hidden;
+}
+/* title */
+.season-footer ul li:nth-child(2) {
+  width: 100%;
+  margin-top: 7em;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+/* descript */
+.season-footer ul li:nth-child(3) {
+  width: 70%;
+  color: #333;
+  font-size: 1.5em;
+  line-height: 22px;
+  margin-left: 15%;
+  margin-top: 1em;
+  text-align: center;
+}
+
+/* picture */
+.season-footer ul li:nth-child(1) {
+  width: 30%;
+  margin-left: 35%;
+}
+.season-footer ul li:nth-child(1) img {
+  width: 100%;
+  display: block;
+}
+
+
+

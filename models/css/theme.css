@@ -1,0 +1,13 @@
+$include[ /css/style.css ]
+
+<%
+var fs = require("fs"),
+	hasInit = {};
+    $include[ /theme.js ];
+    _.each( all_models, function(theme, key){
+    	if( !hasInit[theme.css] ){
+			hasInit[theme.css] = true;
+        	print( fs.readFileSync( request.util.conf.root + "css/" + theme.css ) + "\n" );
+    	}
+    });
+%>

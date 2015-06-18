@@ -1,0 +1,41 @@
+.meeting4 ul {
+  width: 80%;
+  height: 60%;
+  position: absolute;
+  padding:5%;
+  bottom: 4em;
+  left: 5%;
+  display: block;
+  overflow: hidden;
+}
+/* title */
+.meeting4 ul li:nth-child(1) {
+  width: 100%;
+  margin-top: 0.3em;
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+}
+/* descript */
+.meeting4 ul li:nth-child(3) {
+  width: 70%;
+  color: #333;
+  font-size: 1.2em;
+  line-height: 22px;
+  margin-left: 15%;
+  margin-top: 3.5em;
+  text-align: center;
+}
+
+/* picture */
+.meeting4 ul li:nth-child(2) {
+  width: 60%;
+  margin-top: 2em;
+  margin-left: 20%;
+}
+.meeting4 ul li:nth-child(2) img {
+  width: 100%;
+  display: block;
+}
+
+

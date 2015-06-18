@@ -1,0 +1,37 @@
+.other-md1 ul {
+  width: 86%;
+  height: 86%;
+  padding: 7%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.other-md1 ul li:nth-child(1) {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.other-md1 ul li:nth-child(2) {
+  width: 100%;
+  height: 1px;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 6% 0;
+}
+.other-md1 ul li:nth-child(3) {
+  width: 100%;
+  margin: 20px auto;
+}
+.other-md1 ul li:nth-child(3) img {
+  width: 100%;
+}
+.other-md1 ul li:nth-child(4) {
+  color: #fff;
+  width: 90%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5%;
+  font-size: 1.3em;
+}
+.other-md1 ul li:nth-child(4):first-letter {
+  font-size: 1.5em;
+}

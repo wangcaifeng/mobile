@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>app</title>
+    <meta charset="UTF-8">
+    <meta content="max-age=3600" http-equiv="Cache-Control">
+    <meta content="240" name="MobileOptimized">
+    <meta content="YES" name="apple-touch-fullscreen">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="http://tmisc.home.news.cn/mnews/js/zepto.min.js"></script>
+    <script src="http://xuan.news.cn/cloudnews/xhcms_2014/js/require.js"></script>
+    <script src="http://xuan.news.cn/cloudnews/xhcms_2014/js/require-config.js"></script>
+    <script>
+        window.models  =  {
+             "aestheticism1":{
+                temp: '<section class=\"aestheticism1 animate\"><div class=\"bodybg animate-item\"><img src=\"{{bgImg}}\"><\/div><ul><li class=\"animate-item fadeInLeft\">{{title}}<\/li><li class=\"animate-item fadeInRight\">{{{content}}}<\/li><\/ul><\/section>',
+                css: "aestheticism1.css",
+                chineseName:"唯美展示（一）",
+                data:{
+                    imgUrl:"http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/89/87/wKhTg1T5WxoEAAAAAAAAAAAAAAA198.jpg",
+                    title: "恋冬纪",
+                    content: "新年 · 新迹象 · 新愿望",
+                    bgImg : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/89/87/wKhTg1T5WtIEAAAAAAAAAAAAAAA078.jpg",
+                    imgUrlDes:"恋冬纪"
+                },
+                theme: "aestheticism",
+                shortImg: "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/61/60/wKhTglTYZk4EAAAAAAAAAAAAAAA230.jpg"
+            },
+            "aestheticism2":{
+                temp: '<section class=\"aestheticism2 animate\"><div class=\"bodybg animate-item\"><img src=\"{{bgImg}}\"><\/div><ul><li class=\"animate-item zoomIn\"><img src=\"{{imgUrl}}\"><\/li><li class=\"animate-item fadeInDownBig\">{{title}}<\/li><li class=\"line\"><\/li><li class=\"animate-item fadeInUpBig\">{{{content}}}<\/li><\/ul><\/section>',
+                css: "aestheticism2.css",
+                chineseName:"唯美展示（二）",
+                data:{
+                    imgUrl:"http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/89/87/wKhTg1T5WxoEAAAAAAAAAAAAAAA198.jpg",
+                    title: "恋冬纪",
+                    content: "比翼双飞回到故土老家 好一幅田园美景好图画 好一似鸳鸯戏水迎彩霞 你敦厚温柔心地善 你风流倜傥好年华 心边心 天荒地老人共度",
+                    bgImg : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/89/2A/wKhTglT5W7wEAAAAAAAAAAAAAAA111.jpg",
+                    imgUrlDes:"恋冬纪"
+                },
+                theme: "aestheticism",
+                shortImg: "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/61/60/wKhTglTYZk4EAAAAAAAAAAAAAAA230.jpg"
+            },
+            "aestheticism3":{
+                temp: '<section class=\"aestheticism3 animate\"><div class=\"bodybg animate-item\"><img src=\"{{bgImg}}\"><\/div><ul><li class=\"animate-item bounceInDown\"><img src=\"{{imgUrl}}\"><\/li><li class=\"animate-item bounceInUp\">{{title}}<\/li><\/ul><\/section>',
+                css: "aestheticism3.css",
+                chineseName:"唯美展示（三）",
+                data:{
+                    imgUrl:"http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M09/89/89/wKhTg1T5XIcEAAAAAAAAAAAAAAA337.jpg",
+                    title: "恋冬纪",
+                    content: "新年 · 新迹象 · 新愿望",
+                    bgImg : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/89/2A/wKhTglT5W7wEAAAAAAAAAAAAAAA111.jpg",
+                    imgUrlDes:"恋冬纪"
+                },
+                theme: "aestheticism",
+                shortImg: "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/61/60/wKhTglTYZk4EAAAAAAAAAAAAAAA230.jpg"
+            },
+            "aestheticism4":{
+                temp: '<section class=\"aestheticism4 animate\"><div class=\"bodybg animate-item\"><img src=\"{{bgImg}}\"><\/div><ul><li class=\"animate-item bounceIn\"><img src=\"{{imgUrl}}\"><\/li><\/ul><\/section>',
+                css: "aestheticism4.css",
+                chineseName:"唯美展示（四）",
+                data:{
+                    imgUrl:"http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M09/89/2C/wKhTglT5XOQEAAAAAAAAAAAAAAA357.jpg",
+                    title: "恋冬纪",
+                    content: "新年 · 新迹象 · 新愿望",
+                    bgImg : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/89/2A/wKhTglT5W7wEAAAAAAAAAAAAAAA111.jpg",
+                    imgUrlDes:"恋冬纪"
+                },
+                theme: "aestheticism",
+                shortImg: "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/61/60/wKhTglTYZk4EAAAAAAAAAAAAAAA230.jpg"
+            },
+            "aestheticism5":{
+                temp: '<section class=\"aestheticism5 animate\"><div class=\"bodybg animate-item\"><img src=\"{{bgImg}}\"><\/div><ul><li class=\"animate-item zoomIn\"><img src=\"{{imgUrl}}\"><\/li><li class=\"animate-item fadeIn\">{{title}}<\/li><li class=\"animate-item fadeIn\">{{{content}}}<\/li><\/ul><\/section>',
+                css: "aestheticism5.css",
+                chineseName:"唯美展示（尾页）",
+                data:{
+                    imgUrl:"http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/84/09/wKhTg1T1oGIEAAAAAAAAAAAAAAA554.jpg",
+                    title: "新华网股份有限公司出品",
+                    content: "策划：集成部<br\/> 制作：研发部设计组",
+                    bgImg : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M09/8F/D7/wKhTglT-q8cEAAAAAAAAAAAAAAA634.jpg",
+                    imgUrlDes:"新华网股份有限公司出品"
+                },
+                theme: "aestheticism",
+                shortImg: "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/61/60/wKhTglTYZk4EAAAAAAAAAAAAAAA230.jpg"
+            },
+             "almighty4":{
+                temp: '<section class=\"almighty4 animate\"><div class=\"bodybg animate-item\"><img src=\"{{bgImg}}\"><\/div><ul><li class=\"animate-item fadeIn\">{{title}}<\/li><li class=\"animate-item fadeIn\">{{{content}}}<\/li><\/ul><\/section>',
+                css: "almighty4.css",
+                chineseName:"万能模板4",
+                data:{
+                    imgUrl:"http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/84/09/wKhTg1T1oGIEAAAAAAAAAAAAAAA554.jpg!640x960",
+                    title: "脑洞大开的教科书",
+                    content: "最主要的原因在于实行了足球训练比赛的完全市场化管理，现在改革的根本出路在于把市场化和举国体制结合起来，解决在多年的系统化问题。",
+                    bgImg : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/91/FC/wKhTglT_5bYEAAAAAAAAAAAAAAA961.jpg!640x960",
+                    imgUrlDes:"脑洞大开的教科书"
+                },
+                theme: "almighty",
+                shortImg: "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/61/60/wKhTglTYZk4EAAAAAAAAAAAAAAA230.jpg"
+            },
+            "flower-bird3":{
+                temp: '<section class=\"flower-bird1 animate\"><div class=\"bodybg animate-item zoom\"><img src=\"{{bgImg}}\"><\/div><ul><li class=\"animate-item fadeInLeft\">{{title}}<\/li><li class=\"animate-item fadeIn\"><\/li><li class=\"animate-item fadeInRight\">{{{content}}}<\/li><\/ul><\/section>',
+                css: "flower-bird1.css",
+                chineseName:"鸟语花香3",
+                data:{
+                    imgUrl:"http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M06/5E/7B/wKhTglTUbGQEAAAAAAAAAAAAAAA757.jpg",
+                    title: "储户银行卡遭陌生人转走16 万元",
+                    content: "家住宁波海曙的宋先生，平时在上海工作家里的银行卡交给岳母阮女士保管",
+                    bgImg : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/84/78/wKhTglT2XlcEAAAAAAAAAAAAAAA145.jpg",
+                    imgUrlDes:"家住宁波海曙的宋先生"
+                },
+                theme: "flower-bird",
+                shortImg: "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/61/60/wKhTglTYZk4EAAAAAAAAAAAAAAA230.jpg"
+            },
+            "atlas1":{
+                temp: '<section class=\"atlas1 animate\"><div class=\"bodybg animate-item\"><img src=\"{{bgImg}}\"><\/div><div class="atlas1Cont" data-id={{atlasId}}><img class="atlas1img1" src="http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/3E/EE/wKhTg1S8eZsEAAAAAAAAAAAAAAA827.jpg"><img class="atlas1img2" src="http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M00/3E/9B/wKhTglS8eaYEAAAAAAAAAAAAAAA306.jpg"><img class="atlas1img3" src="http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M00/3E/9B/wKhTglS8eaYEAAAAAAAAAAAAAAA306.jpg"></div><ul><li class=\"animate-item fadeInRight\">{{title}}<\/li><li class=\"animate-item fadeInUp\">{{{content}}}<\/li><\/ul><\/section>',
+                css: "atlas.css",
+                chineseName:"图集1",
+                data:{
+                    atlasId:1,
+                    imgUrl:"http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M01/84/03/wKhTg1T1lzkEAAAAAAAAAAAAAAA506.jpg",
+                    title: "关注两会  关注议题",
+                    content: "“空谈能误国，实干能兴邦” 必然会有“实谈能兴政，蛮干能误事”。提倡实干兴邦，有两层基本含义：第一，有方向，不争论，埋头干，想明白的事情，就要认真去做。无谓的争论毫无意义。......",
+                    bgImg : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/85/52/wKhTg1T2dHIEAAAAAAAAAAAAAAA095.jpg",
+                    imgUrlDes:"空谈能误国，实干能兴邦"
+                },
+                theme: "atlas",
+                shortImg: "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/61/60/wKhTglTYZk4EAAAAAAAAAAAAAAA230.jpg"
+            },
+            "atlas2":{
+                temp: '<section class=\"atlas2 animate\"><div class=\"bodybg animate-item\"><img src=\"{{bgImg}}\"><\/div><div id="atlas2Cont" class="atlas2Cont"><canvas class="animation_canvas" id="animation_canvas"></canvas> </div> <ul><li class=\"animate-item fadeInDownBig\">{{title}}</li></ul><\/section>',
+                css: "atlas.css",
+                chineseName:"图集1",
+                data:{
+                    atlasId:2,
+                    imgUrl:"http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M01/84/03/wKhTg1T1lzkEAAAAAAAAAAAAAAA506.jpg",
+                    title: "关注两会  关注议题",
+                    content: "“空谈能误国，实干能兴邦” 必然会有“实谈能兴政，蛮干能误事”。提倡实干兴邦，有两层基本含义：第一，有方向，不争论，埋头干，想明白的事情，就要认真去做。无谓的争论毫无意义。......",
+                    bgImg : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/85/52/wKhTg1T2dHIEAAAAAAAAAAAAAAA095.jpg",
+                    imgUrlDes:"空谈能误国，实干能兴邦"
+                },
+                theme: "atlas",
+                shortImg: "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/61/60/wKhTglTYZk4EAAAAAAAAAAAAAAA230.jpg"
+            }
+        };
+        window.data = {
+            id:177,
+            storyMusic:"http://tpic.home.news.cn/xhvedio/xhvedio002/M00/08/AC/wKhMD1U53MYEAAAAAAAAAAAAAAA786.mp3",
+            comment : true,
+            Thumb:"Xnocover",
+            autoplay:false,
+            content : [
+                    {
+                        modelType : "aestheticism1",
+                        imgUrl : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/A8/85/wKhTglUTb3MEAAAAAAAAAAAAAAA923.jpg",
+                        title: "“傻狍子”究竟有多傻?",
+                        content: "<font color=\"black\" size=\"4px\"> 在东北，99.99%的东北人都知道有个“神兽”叫傻狍子。但傻狍子究竟有多“傻”？回答不上来了吧？回答不出来就好好看看吧......<\/font>",
+                        bgImg :  "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/A9/CA/wKhTg1UTvVUEAAAAAAAAAAAAAAA002.jpg",   
+                        imgUrlDes:""
+                    },
+                    {
+                        modelType : "aestheticism2",
+                        imgUrl : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/A8/F0/wKhTg1UTc9gEAAAAAAAAAAAAAAA956.jpg",
+                        title: "傻狍子是个啥动物?",
+                        content: "傻狍子又称矮鹿、野羊，偶蹄目鹿科，草食动物。狍身草黄色，尾根下有白毛，雄狍有角，雌无角。",
+                        bgImg :  "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M05/A9/32/wKhTglUTplsEAAAAAAAAAAAAAAA523.jpg",   
+                        imgUrlDes:""
+                    },
+                    {
+                        modelType : "aestheticism2",
+                        imgUrl : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/A9/90/wKhTg1UTprAEAAAAAAAAAAAAAAA685.jpg",
+                        title: "傻狍子有个神奇屁股",
+                        content: "傻狍子受惊时，尾巴处的白毛会瞬间炸开！整个屁股变成白屁股，然后再思考要不要逃跑……真是慢半拍……",
+                        bgImg :  "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M09/A9/47/wKhTglUTrTwEAAAAAAAAAAAAAAA746.jpg",   
+                        imgUrlDes:""
+                    },
+                    {
+                        modelType : "aestheticism3",
+                        imgUrl : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M01/A8/D6/wKhTglUTgOAEAAAAAAAAAAAAAAA802.jpg",
+                        title: "总感觉自己萌萌哒！",
+                        content: "新年 · 新迹象 · 新愿望",
+                        bgImg :  "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/89/2A/wKhTglT5W7wEAAAAAAAAAAAAAAA111.jpg",   
+                        imgUrlDes:""
+                    },
+                    {
+                        modelType : "aestheticism3",
+                        imgUrl : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M01/A9/A0/wKhTg1UTq-EEAAAAAAAAAAAAAAA373.jpg",
+                        title: "又觉得自己帅帅哒！",
+                        content: "",
+                        bgImg :  "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/89/2A/wKhTglT5W7wEAAAAAAAAAAAAAAA111.jpg",   
+                        imgUrlDes:""
+                    },
+                    {   
+                        modelType : "atlas1",
+                        atlasId:1,
+                        imgUrl:"http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/89/2A/wKhTglT5W7wEAAAAAAAAAAAAAAA111.jpg",
+                        title: "我萌么？！萌萌哒！！！",
+                        content: " 对于没见过的新鲜东西，傻狍子会没玩没了的一直研究，甚至废寝忘食的观察，这闻闻，那舔舔。",
+                        bgImg : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/89/2A/wKhTglT5W7wEAAAAAAAAAAAAAAA111.jpg",
+                        imgUrlDes:"空谈能误国，实干能兴邦"
+                    }, 
+                       {  
+                     modelType : "atlas2",
+                        atlasId:2,
+                        imgUrl:"http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M01/84/03/wKhTg1T1lzkEAAAAAAAAAAAAAAA506.jpg",
+                        title: "我萌么？！萌萌哒！！！",
+                        content: "",
+                        bgImg : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/89/2A/wKhTglT5W7wEAAAAAAAAAAAAAAA111.jpg",
+                        imgUrlDes:""
+                    },  
+                    {
+                        modelType : "almighty4",
+                        imgUrl : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/84/09/wKhTg1T1oGIEAAAAAAAAAAAAAAA554.jpg!640x960",
+                        title: "傻狍子VS猎人",
+                        content: "傻狍子被猎人追赶时，会把头埋进雪里，因为它以为这样做，猎人就发现不了它了。",
+                        bgImg :  "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M04/A9/85/wKhTg1UToIwEAAAAAAAAAAAAAAA603.jpg",   
+                        imgUrlDes:""
+                    },
+                    {
+                        modelType : "aestheticism2",
+                        imgUrl : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M08/A9/28/wKhTglUToQgEAAAAAAAAAAAAAAA837.jpg",
+                        title: "",
+                        content: "如果猎人一枪没打中傻狍子也不要紧，因为它跑走以后，过会儿还会颠颠地跑回来，看看刚才发生了啥事。",
+                        bgImg :  "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/89/2A/wKhTglT5W7wEAAAAAAAAAAAAAAA111.jpg",   
+                        imgUrlDes:""
+                    },
+                    {
+                        modelType : "flower-bird3",
+                        imgUrl : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M06/5E/7B/wKhTglTUbGQEAAAAAAAAAAAAAAA757.jpg",
+                        title: "对新鲜事物情有独钟",
+                        content: "<font color=\"black\" size=\"4px\"><b> 对于没见过的新鲜东西，傻狍子会没玩没了的一直研究，甚至废寝忘食的观察，这闻闻，那舔舔。<\/b><\/font>",
+                        bgImg :  "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M08/A9/7A/wKhTglUTwTYEAAAAAAAAAAAAAAA377.jpg",   
+                        imgUrlDes:""
+                    },
+                    {
+                        modelType : "aestheticism2",
+                        imgUrl : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M06/A9/77/wKhTglUTv4oEAAAAAAAAAAAAAAA925.jpg",
+                        title: "请不要伤害我哦！",
+                        content: "对于如此可爱的傻狍子，你怎么还能忍心对它下手呢？",
+                        bgImg :  "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M04/A9/77/wKhTglUTv8IEAAAAAAAAAAAAAAA485.jpg",   
+                        imgUrlDes:""
+                    },
+                    {
+                        modelType : "aestheticism5",
+                        imgUrl : "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M08/A9/95/wKhTglUTy9IEAAAAAAAAAAAAAAA100.jpg",
+                        title: "新华网股份有限公司出品",
+                        content: "策划：数据集成部<br\/> 制作：陆春婷",
+                        bgImg :  "http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M03/89/2A/wKhTglT5W7wEAAAAAAAAAAAAAAA111.jpg",   
+                        imgUrlDes:""
+                    }
+                   
+            ]
+        };
+    </script>
+</head>
+<body>
+    <input type="hidden" id="fileuuid" value="2-xuannews126746770">
+    <div style="width:0px; height:0px; overflow:hidden">
+        <img src="http://tpic.home.news.cn/xhCloudNewsPic/xhpic001/M07/5E/DB/wKhTg1TUbWYEAAAAAAAAAAAAAAA280.jpg">
+    </div>
+    <div class="wrapper swiper-container" id="wrapper">
+    </div>
+</body>
+<script src="js/slide.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript" charset="utf-8">
+    var xhStatisticInfo={
+        Listener_cfg:[],
+        related_statistics:{
+                uu:"http://xuan.news.cn/cloudnews/wyxh/20150310/2161755_c.html",
+                ck:"释永信,少林寺,方丈,出家人,佛教",
+                et:"1620",
+                cb:"2161755",
+                wt:"2", 
+                at:"xz",
+                pt:"2",
+                ce:"1",
+                xzn:"kan",
+                ct:"2015-03-10 06:49:58",
+                th:"11",
+                st:"1",
+                ni:"265",
+                cf:"1146"
+            },
+        setting_cookie:{pc:"pc",cc:"cc",si:"sessionId",un:"userName",nn:"nn"},
+        send_date_url:""
+
+    }
+</script>
+<script type="text/javascript" src="http://da.xuan.news.cn/st/xh-statistic-v4.js"></script>
+<script type="text/javascript" src="http://da.xuan.news.cn/st/jsonp_reload.js"></script>
+</html>

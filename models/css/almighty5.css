@@ -1,0 +1,40 @@
+.almighty5 ul {
+  width: 100%;
+  height: 78%;
+  position: absolute;
+  bottom: 0em;
+  display: block;
+  overflow: hidden;
+}
+/* title */
+.almighty5 ul li:nth-child(2) {
+  width: 100%;
+  margin-top: 7em;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+/* descript */
+.almighty5 ul li:nth-child(3) {
+  width: 90%;
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 22px;
+  margin-left: 5%;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+/* picture */
+.almighty5 ul li:nth-child(1) {
+  width: 30%;
+  margin-left: 35%;
+}
+.almighty5 ul li:nth-child(1) img {
+  width: 100%;
+  display: block;
+}
+
+
+

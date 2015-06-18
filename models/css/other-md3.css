@@ -1,0 +1,40 @@
+.other-md3 ul {
+  width: 86%;
+  height: 86%;
+  padding: 7%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.other-md3 ul li:nth-child(1) {
+  color: #fff;
+  font-size: 2.5em;
+  margin-top: 6%;
+  text-align: center;
+}
+.other-md3 ul li:nth-child(1) p {
+  font-size: 0.5em;
+}
+.other-md3 ul li:nth-child(2) {
+  width: 100%;
+  margin: 25px auto 5px;
+}
+.other-md3 ul li:nth-child(2) img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  display: block;
+  margin: 0 auto;
+  border: 5px solid #fff;
+}
+.other-md3 ul li:nth-child(3) {
+  width: 90%;
+  padding: 5%;
+  color: #fff;
+  margin-top: 5%;
+  text-shadow: 2px 2px 1px rgba(5, 99, 100, 0.6);
+  font-size: 1.3em;
+}
+.other-md3 ul li:nth-child(3):first-letter {
+  font-size: 1.5em;
+}
