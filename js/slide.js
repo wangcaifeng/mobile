@@ -198,8 +198,8 @@ define("spswiper",function(){
 						//最小化改变DOM属性
 						for(i; i < m; i++){
 							//当前移动时不要动画
+							lis[i] && (lis[i].style.webkitTransition = '-webkit-transform 0s ease');
 							lis[i] && (lis[i].style.webkitTransition = 'transform 0s ease');							
-							lis[i] && (lis[i].style.transition = 'transform 0s ease');							
 							if (i == self.initIndex + 1) {
 								lis[i] && (lis[i].style.zIndex = 887);
 							}
@@ -224,8 +224,8 @@ define("spswiper",function(){
 						//当前移动时不要动画
 						for(i; i < m; i++){
 							//当前移动时不要动画
+							lis[i] && (lis[i].style.webkitTransition = '-webkit-transform 0s ease');
 							lis[i] && (lis[i].style.webkitTransition = 'transform 0s ease');
-							lis[i] && (lis[i].style.transition = 'transform 0s ease');
 							if (i == self.initIndex + 1) {
 								lisNext = lis[i] || lis[0]
 								lisNext && (lisNext.style.zIndex = 889);
