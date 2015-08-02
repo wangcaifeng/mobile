@@ -1,10 +1,10 @@
 /**
-* 滑屏效果
+* 滑动转场效果
 *by wangcaifeng
-*@param {Object} outer     屏父级dom对象relative定位
-*@param {string} section   屏tagName
-*@param {string} direction 滑屏方向X,Y
-*@param {string} way	   滑屏效果nocover:连续 cover:叠加
+*@param {Object} outer     场父级dom对象relative定位
+*@param {string} section   场tagName
+*@param {string} direction 转场方向X,Y
+*@param {string} way	   转场效果nocover:连续 cover:叠加
 *@param {string} container 主题效果标签/spawiper组件实现其转场动画效果
 *@param {Boolean} loop     是否自动播放
 *@param {Number} looptime  转场时间设置looptrue有效
@@ -25,9 +25,16 @@ define("spswiper",function(){
 	}
 
 	var startTarget;
+	function hasClass(ele,cls) { 
+		return ele.className.match(new RegExp('(\\s|^)'+cls+'(\\s|$)')); 
+	};
+	function extend(o,n,override){
+	   for(var p in n)if(n.hasOwnProperty(p) && (!o.hasOwnProperty(p) || override))o[p]=n[p];
+	   	return o;
+	};
 	//构造函数
 	function Slider(opts){
-		var o = $.extend(_default,opts);
+		var o = extend(opts,_default);
 		//构造函数需要的参数
 		this.outer = o.outer;
 		this.looptime = o.looptime;
@@ -173,7 +180,7 @@ define("spswiper",function(){
 			var startE = e.touches ? e.touches[0] : e;
 			dragging = 1;
 			for( var key in stopmove){
-				$(startTarget).hasClass(stopmove[key]) ? dragging = null : dragging = 1;
+				hasClass(startTarget,stopmove[key]) ? dragging = null : dragging = 1;
 			}
 		};
 
@@ -218,8 +225,10 @@ define("spswiper",function(){
 								}
 							}
 						}
-						$(self.lis).find('img').hide();
-						$(lis[self.initIndex + 1]).find('img').show();
+						for(var i = 0; i < self.lis.length; i++){
+							var img = self.lis[i].getElementsByTagName('img');
+							(i != self.initIndex + 1) ? img.style='none' : img.style='block'
+						}
 					} else {//up
 						//当前移动时不要动画
 						for(i; i < m; i++){
@@ -257,8 +266,7 @@ define("spswiper",function(){
 		var endHandler = function(e){
 			if(self.offset){
 				//边界就翻页值
-				//var boundary = self.winPx/2;
-				var boundary = 7;//保留上面，滑屏习惯
+				var boundary = 7;//滑屏习惯
 				//手指抬起的时间值
 				var endTime = new Date() * 1;
 				//当手指移动时间超过400ms 的时候，按位移算
